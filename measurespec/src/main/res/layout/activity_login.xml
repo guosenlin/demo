@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:stretchColumns="1">
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="Account"/>
+        <EditText
+            android:id="@+id/et_account"
+            android:layout_height="wrap_content"
+            android:hint="input your account"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="Password"/>
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"/>
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/bt_login"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:text="Login"/>
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/bt_to_test"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:text="Test"/>
+    </TableRow>
+    <TableRow android:gravity="center">
+        <com.gsl.demo.measurespec.view.MusicStripe />
+    </TableRow>
+    <TableRow>
+        <com.gsl.demo.measurespec.view.MyCustomView
+            android:id="@+id/my_custom_view"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            app:showTitleText="Android Skills"
+            app:showTextColor="#000"
+            app:showTextSize="20dp"
+            app:innerCircleColor="#ffcc00"
+            app:outerCircleColor="#00ffcc"
+            app:outerCirclePercent="75"
+            android:layout_span="2"
+            />
+    </TableRow>
+
+</TableLayout>

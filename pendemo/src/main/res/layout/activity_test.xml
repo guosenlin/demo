@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_test"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffcc"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/mind_guide_canvas"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:background="@drawable/mind_guide_bg">
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/select_box"
+        android:layout_alignParentTop="true"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="20dp"
+        android:background="#cccece">
+
+        <ImageView
+            android:id="@+id/op_01"
+            android:layout_margin="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:background="@drawable/cpp"/>
+
+        <ImageView
+            android:id="@+id/op_02"
+            android:layout_margin="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:background="@drawable/go"/>
+
+        <ImageView
+            android:id="@+id/op_03"
+            android:layout_margin="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:background="@drawable/java"/>
+
+
+        <ImageView
+            android:id="@+id/op_04"
+            android:layout_margin="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:background="@drawable/html"/>
+
+    </LinearLayout>
+</LinearLayout>

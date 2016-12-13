@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.gsl.demo.measurespec.view.TopBar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/customView_topbar"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="#ffcf00"
+    app:titleText="Android Title"
+    app:titleSize="10sp"
+    app:titleColor="#000"
+    app:leftText="&#xe64c;"
+    app:leftTextColor="#000"
+    app:rightText="&#xe667;"
+    app:rightTextColor="#000"/>

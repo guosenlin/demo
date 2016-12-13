@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/search_btn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/icon_search"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:text="正在搜索智能笔"
+        android:textColor="#333333"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:text="请将智能笔电源键长按5秒进入蓝牙配对模式！"
+        android:textColor="#CCCCCC"
+        android:textSize="13sp"/>
+
+</RelativeLayout>

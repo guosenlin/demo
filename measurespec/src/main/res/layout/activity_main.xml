@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/topbar"/>
+
+    <LinearLayout
+        android:id="@+id/layout_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/bt_viewpager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="viewoager test_01"/>
+        <Button
+            android:id="@+id/bt_viewpager2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="viewoager test_02"/>
+        <Button
+            android:id="@+id/bt_viewpager3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="viewoager test_03"/>
+
+    </LinearLayout>
+
+<!--    <com.gsl.demo.measurespec.view.MyTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android" />-->
+
+</LinearLayout>

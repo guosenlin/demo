@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DemoApplication.iml" filepath="$PROJECT_DIR$/DemoApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imdemo/imdemo.iml" filepath="$PROJECT_DIR$/imdemo/imdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/measurespec/measurespec.iml" filepath="$PROJECT_DIR$/measurespec/measurespec.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pendemo/pendemo.iml" filepath="$PROJECT_DIR$/pendemo/pendemo.iml" />
+    </modules>
+  </component>
+</project>

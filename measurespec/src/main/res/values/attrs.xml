@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TopBar">
+        <attr name="titleText" format="string"></attr>
+        <attr name="titleSize" format="dimension"></attr>
+        <attr name="titleColor" format="color"></attr>
+
+        <attr name="leftText" format="string"></attr>
+        <attr name="leftTextColor" format="color"></attr>
+        <attr name="leftBackground" format="reference|color"></attr>
+
+        <attr name="rightText" format="string"></attr>
+        <attr name="rightTextColor" format="color"></attr>
+        <attr name="rightBackground" format="reference|color"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="MyCustomView">
+        <attr name="showTitleText" format="string"></attr>
+        <attr name="showTextSize" format="dimension"></attr>
+        <attr name="showTextColor" format="color"></attr>
+
+        <attr name="innerCircleColor" format="color"></attr>
+        <attr name="outerCircleColor" format="color"></attr>
+
+        <attr name="outerCirclePercent" format="float"></attr>
+
+    </declare-styleable>
+</resources>

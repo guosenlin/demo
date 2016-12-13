@@ -1,0 +1,1 @@
+include ':app', ':measurespec', ':imdemo', ':pendemo'

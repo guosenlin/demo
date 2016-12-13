@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">pendemo</string>
+
+    <string name="alert_title">@string/app_name</string>
+    <string name="alert_neutral">取消</string>
+    <string name="alert_positive">确定</string>
+</resources>

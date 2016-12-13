@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <com.gsl.demo.measurespec.view.MyCustomViewGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:background="#cc9900"
+            android:text="How"
+            android:textColor="#000"
+            android:textSize="40dp"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:background="#cc99cc"
+            android:text="Are"
+            android:textColor="#000"
+            android:textSize="40dp"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:background="#00cc00"
+            android:text="You"
+            android:textColor="#000"
+            android:textSize="40dp"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:background="#00cccc"
+            android:text="Doing"
+            android:textColor="#000"
+            android:textSize="40dp"
+            android:gravity="center"/>
+
+    </com.gsl.demo.measurespec.view.MyCustomViewGroup>
+
+</LinearLayout>
