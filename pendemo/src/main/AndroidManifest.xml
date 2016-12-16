@@ -17,7 +17,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".TestActivity"
+            android:name=".Test3Activity"
             android:screenOrientation="landscape"
             android:theme="@style/Theme.AppCompat">
             <intent-filter>

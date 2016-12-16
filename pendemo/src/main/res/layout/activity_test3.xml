@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_test3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffcc">
+
+    <ImageView
+        android:id="@+id/option_locater"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <RelativeLayout
+        android:id="@+id/mind_guide_canvas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/mind_guide_bg_01">
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/select_box_left"
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:background="#ffffcc"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="2dp">
+
+        <ImageView
+            android:id="@+id/op_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:background="@drawable/option_1"/>
+
+        <ImageView
+            android:id="@+id/op_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:background="@drawable/option_2"/>
+
+        <ImageView
+            android:id="@+id/op_03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:background="@drawable/option_3"/>
+
+        <ImageView
+            android:id="@+id/op_04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:background="@drawable/option_4"/>
+
+        <ImageView
+            android:id="@+id/op_05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:background="@drawable/option_5"/>
+
+        <ImageView
+            android:id="@+id/op_06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:background="@drawable/option_6"/>
+
+        <ImageView
+            android:id="@+id/op_07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:background="@drawable/option_8"/>
+
+        <ImageView
+            android:id="@+id/op_08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:background="@drawable/option_8"/>
+
+        <ImageView
+            android:id="@+id/op_09"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:background="@drawable/option_9"/>
+
+        <ImageView
+            android:id="@+id/op_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:background="@drawable/option_10"/>
+
+        <ImageView
+            android:id="@+id/op_11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:background="@drawable/option_11"/>
+
+        <ImageView
+            android:id="@+id/op_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:background="@drawable/option_12"/>
+
+        <ImageView
+            android:id="@+id/op_13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:background="@drawable/option_13"/>
+
+        <ImageView
+            android:id="@+id/op_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:background="@drawable/option_14"/>
+
+        <ImageView
+            android:id="@+id/op_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:background="@drawable/option_15"/>
+
+        <ImageView
+            android:id="@+id/op_16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:background="@drawable/option_16"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/select_box_right"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="#ffffcc"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="2dp">
+
+        <ImageView
+            android:id="@+id/op_17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:background="@drawable/option_17"/>
+
+        <ImageView
+            android:id="@+id/op_18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:background="@drawable/option_18"/>
+
+        <ImageView
+            android:id="@+id/op_19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:background="@drawable/option_19"/>
+
+        <ImageView
+            android:id="@+id/op_20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:background="@drawable/option_20"/>
+
+        <ImageView
+            android:id="@+id/op_21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:background="@drawable/option_21"/>
+
+        <ImageView
+            android:id="@+id/op_22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:background="@drawable/option_22"/>
+
+        <ImageView
+            android:id="@+id/op_23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:background="@drawable/option_23"/>
+
+        <ImageView
+            android:id="@+id/op_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:background="@drawable/option_24"/>
+
+        <ImageView
+            android:id="@+id/op_25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:background="@drawable/option_25"/>
+
+        <ImageView
+            android:id="@+id/op_26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:background="@drawable/option_26"/>
+
+        <ImageView
+            android:id="@+id/op_27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:background="@drawable/option_27"/>
+
+        <ImageView
+            android:id="@+id/op_28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:background="@drawable/option_28"/>
+
+        <ImageView
+            android:id="@+id/op_29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:background="@drawable/option_29"/>
+
+        <ImageView
+            android:id="@+id/op_30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:background="@drawable/option_30"/>
+
+        <ImageView
+            android:id="@+id/op_31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:background="@drawable/option_31"/>
+
+        <ImageView
+            android:id="@+id/op_32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:background="@drawable/option_32"/>
+    </LinearLayout>
+
+</RelativeLayout>
