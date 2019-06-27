@@ -1,2 +1,3 @@
 foo:
   version: 1
+  description: from demo/dev/application.yml
